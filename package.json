@@ -1,0 +1,21 @@
+{
+  "name": "grammygemini-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "author": "agung",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.12.0",
+    "@grammyjs/files": "^1.1.1",
+    "dotenv": "^16.4.5",
+    "grammy": "^1.24.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
